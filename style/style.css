@@ -174,7 +174,7 @@ main section.container div {
   text-align: center;
 }
 
-main section.container div div.citat {
+main section.container div div.motto {
   font-size: 48px;
   font-family: Konit;
   font-weight: bold;
@@ -223,14 +223,14 @@ main section.container-3 div {
     padding-left: 20px;
 }
 
-main section.container-3 div div.Tabel {
+main section.container-3 div div.table {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 15px;
 }
 
-main section.container-3 div div.Tabel p,
-main section.container-3 div div.Tabel div {
+main section.container-3 div div.table p,
+main section.container-3 div div.table div {
     border: 2px inset white;
     margin: 0;
     padding: 5px;
@@ -283,26 +283,26 @@ section.content div.inf div.top-inf img {
     width: 500px;
 }
 
-section.content div.inf div.modelul p  {
+section.content div.inf div.page4-1 p  {
     font-size: 20px;
     color: white;
 }
 
-section.content div.inf div.modelul ol {
+section.content div.inf div.page4-1 ol {
     font-size: 18px;
     color: yellowgreen;
 }
 
-section.content div.inf div.scopul div.scop-t,
-section.content div.inf div.postulate div.t {
+section.content div.inf div.page4-2 div.scop-t,
+section.content div.inf div.page4-3 div.t {
     font-size: 40px;
     color: rgba(253, 251, 251, 0.5);
     display: grid;
     grid-template-columns: 350px auto;
 }
 
-section.content div.inf div.scopul div.scop-t div.line,
-section.content div.inf div.postulate div.t div.line {
+section.content div.inf div.page4-2 div.scop-t div.line,
+section.content div.inf div.page4-3 div.t div.line {
 border-bottom: 3px solid rgba(241, 235, 235, 0.1);
 height: 80px;
 }
@@ -322,13 +322,13 @@ section.content div.inf div.scopuri div {
     padding: 40px 10px 40px 10px;
 }
 
-section.content div.inf div.postulate div.c {
+section.content div.inf div.page4-3 div.c {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
 }
 
-section.content div.inf div.postulate div.c div {
+section.content div.inf div.page4-3 div.c div {
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
     background-color: rgba(180, 158, 180, 0.5);
@@ -346,44 +346,44 @@ section.content div.right {
     padding: 5px;
 }
 
-section.clasificare {
+section.page3 {
     display: grid;
     grid-template-columns: 300px auto;
     column-gap: 20px;
 }
 
-section.clasificare div.left {
+section.page3 div.left {
     padding: 10px;
     margin-top: 15px;
     background-color: rgba(231, 184, 231, 0.1);
 }
 
-section.clasificare div.left p {
+section.page3 div.left p {
     font-size: 20px;
 }
 
-section.clasificare div.left img {
+section.page3 div.left img {
     width: 250px;
 }
 
-section.clasificare div.nevoi {
+section.page3 div.items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
 }
 
-section.clasificare div.nevoi img {
+section.page3 div.items img {
     width: 300px;
     position: relative;
     z-index: -1;
 }
 
-section.clasificare div.nevoi p {
+section.page3 div.items p {
     display: none;
     padding: 10px 40px 10px 10px;
 }
 
-section.clasificare div.nevoi div.comunicare:hover > p {
+section.page3 div.items div.item1:hover > p {
     display: block;
     z-index: +1;
     margin-top: -300px;
@@ -391,7 +391,7 @@ section.clasificare div.nevoi div.comunicare:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.miscare:hover > p {
+section.page3 div.items div.item2:hover > p {
     display: block;
     z-index: +1;
     margin-top: -160px;
@@ -399,7 +399,7 @@ section.clasificare div.nevoi div.miscare:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.curat:hover > p {
+section.page3 div.items div.item3:hover > p {
     display: block;
     z-index: +1;
     margin-top: -200px;
@@ -407,7 +407,7 @@ section.clasificare div.nevoi div.curat:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.imbraca:hover > p {
+section.page3 div.items div.item4:hover > p {
     display: block;
     z-index: +1;
     margin-top: -195px;
@@ -415,12 +415,12 @@ section.clasificare div.nevoi div.imbraca:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.respira:hover > p,
-section.clasificare div.nevoi div.temperatura:hover > p,
-section.clasificare div.nevoi div.manca:hover > p,
-section.clasificare div.nevoi div.elimina:hover > p,
-section.clasificare div.nevoi div.recrea:hover > p,
-section.clasificare div.nevoi div.invata:hover > p {
+section.page3 div.items div.item5:hover > p,
+section.page3 div.items div.item6:hover > p,
+section.page3 div.items div.item7:hover > p,
+section.page3e div.items div.item8:hover > p,
+section.page3 div.items div.item13:hover > p,
+section.page3 div.items div.item14:hover > p {
     display: block;
     z-index: +1;
     margin-top: -170px;
@@ -428,7 +428,7 @@ section.clasificare div.nevoi div.invata:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.pericole:hover > p {
+section.page3 div.items div.item9:hover > p {
     display: block;
     z-index: +1;
     margin-top: -270px;
@@ -436,9 +436,9 @@ section.clasificare div.nevoi div.pericole:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.dormi:hover > p,
-section.clasificare div.nevoi div.credinte:hover > p,
-section.clasificare div.nevoi div.util:hover > p {
+section.page3 div.items div.item10:hover > p,
+section.page3 div.items div.item11:hover > p,
+section.page3 div.items div.item12:hover > p {
     display: block;
     z-index: +1;
     margin-top: -195px;
@@ -446,20 +446,20 @@ section.clasificare div.nevoi div.util:hover > p {
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div:hover > img {
+section.page3 div.items div:hover > img {
     opacity: 0.4;
 }
 
-section.clasificare div.maslow {
+section.page3 div.maslow {
     margin-top: 20px;
 }
 
-section.clasificare div.maslow img {
+section.page3 div.maslow img {
     width: 800px;
     margin-left: 100px;
 }
 
-section.clasificare div.maslow img:hover {
+section.page3 div.maslow img:hover {
     width: 100%;
     margin-left: 0;
 }
