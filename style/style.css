@@ -1,12 +1,12 @@
-body{
+body {
     background-color: lightslategray;
 }
 
-.header-top, .main-menu{
+.header-top, .main-menu {
     background: linear-gradient(to right, lightslategray, rgb(255, 255, 255));
 }
 
-.logo{
+.logo {
     position: relative;
     left: 20px;
     width: 150px;
@@ -22,14 +22,14 @@ body{
     animation-iteration-count: infinite;
 }
   
-@keyframes Bord{
+@keyframes Bord {
     0% {border-color:rebeccapurple;}
     25% {border-color: salmon;}
     50% {border-color: yellow;}
     100% {border-color: black;}
 }
   
-h1{
+h1 {
     font-weight: bold; 
     background: -webkit-linear-gradient(black, red);  
     -webkit-background-clip: text;
@@ -41,7 +41,7 @@ h1{
     font-family: 'Edwardian Script ITC'; font-size: 70px;
 }
   
-.header-top{
+.header-top {
     background-color: white;
     height: 90px;
 }
@@ -54,7 +54,7 @@ h1{
     padding: 0;
 }
   
-.nv{
+.nv {
     width: 500px;
 }
   
@@ -71,7 +71,7 @@ h1{
     background-color:rgb(222, 242, 245);
 }
   
-.dropdown-content li{
+.dropdown-content li {
     border-bottom: groove;
     border-color:powderblue;
 }
@@ -88,22 +88,22 @@ h1{
     text-decoration: none;
 }
   
-.menu{
+.menu {
     position: relative;
 }
   
-.main-menu{
+.main-menu {
     background-color: white;
 }
   
-footer{
+footer {
     background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
     position: static;
     top: 20px;
     left: -8px;
 }
   
-.menu-f{
+.menu-f {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -128,7 +128,7 @@ footer{
   background-color: white;
 }
 
-main section.container{
+main section.container {
     max-height: 500px;
     background-color:steelblue;
     display: grid;
@@ -141,7 +141,7 @@ main section.container{
 #button-right,
 #button-left1,
 #button-right1,
-#button-left2{
+#button-left2 {
     height: 30px;
     width: 100px;
     font-family: Konit;
@@ -152,7 +152,7 @@ main section.container{
 }
 
 main section.container-1,
-main section.container-3{
+main section.container-3 {
   min-height: 500px;
   background-color:steelblue;
   grid-template-columns: auto 500px;
@@ -160,7 +160,7 @@ main section.container-3{
   display: none;
 }
 
-main section.container-2{
+main section.container-2 {
     background-color:steelblue;
     grid-template-columns: 500px auto;
     margin-top: 50px;
@@ -169,12 +169,12 @@ main section.container-2{
     padding-right: 30px;
 }
 
-main section.container div{
+main section.container div {
   align-self: center;
   text-align: center;
 }
 
-main section.container div div.citat{
+main section.container div div.citat {
   font-size: 48px;
   font-family: Konit;
   font-weight: bold;
@@ -184,7 +184,7 @@ main section.container div div.citat{
     -webkit-text-fill-color: transparent;
 }
 
-main section.container div button{
+main section.container div button {
    height: 50px;
    width: 250px;
    font-family: Konit;
@@ -196,7 +196,7 @@ main section.container div button{
 main section.container img,
 main section.container-1 img,
 main section.container-2 img,
-main section.container-3 img{
+main section.container-3 img {
   height: 300px;
   justify-self: center;
   align-self: center;
@@ -204,7 +204,7 @@ main section.container-3 img{
 
 main section.container-1 div h3,
 main section.container-2 div h3,
-main section.container-3 div h3{
+main section.container-3 div h3 {
     font-family: Konit;
     font-size: 50px;
     background: -webkit-linear-gradient( blue, violet);
@@ -217,26 +217,26 @@ main section.container-3 div h3{
 
 main section.container-1 div p,
 main section.container-2 div,
-main section.container-3 div{
+main section.container-3 div {
     font-family: Konit;
     font-size: 20px;
     padding-left: 20px;
 }
 
-main section.container-3 div div.Tabel{
+main section.container-3 div div.Tabel {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 15px;
 }
 
 main section.container-3 div div.Tabel p,
-main section.container-3 div div.Tabel div{
+main section.container-3 div div.Tabel div {
     border: 2px inset white;
     margin: 0;
     padding: 5px;
 }
 
-section.content{
+section.content {
     display: grid;
     grid-template-columns: 300px auto 300px;
     column-gap: 10px;
@@ -244,13 +244,13 @@ section.content{
 }
 
 section.content div.left,
-section.content div.right{
+section.content div.right {
     background: linear-gradient(black, white);
     height: fit-content;
 }
 
 section.content div.left p,
-section.content div.right h4{
+section.content div.right h4 {
     color: white;
     font-size: 25px;
     font-family: cursive;
@@ -259,42 +259,42 @@ section.content div.right h4{
 }
 
 section.content div.left ul,
-section.content div.right p{
+section.content div.right p {
     font-size: 25px;
 }
 
-section.content div.inf{
+section.content div.inf {
     background: linear-gradient(slategrey, black);
     padding: 10px;
 }
 
-section.content div.inf div.top-inf{
+section.content div.inf div.top-inf {
 text-align: center;
 }
 
-section.content div.inf div.top-inf p{
+section.content div.inf div.top-inf p {
     color: white;
     font-size: 25px;
     font-family: cursive;
     padding: 5px;
 }
 
-section.content div.inf div.top-inf img{
+section.content div.inf div.top-inf img {
     width: 500px;
 }
 
-section.content div.inf div.modelul p{
+section.content div.inf div.modelul p  {
     font-size: 20px;
     color: white;
 }
 
-section.content div.inf div.modelul ol{
+section.content div.inf div.modelul ol {
     font-size: 18px;
     color: yellowgreen;
 }
 
 section.content div.inf div.scopul div.scop-t,
-section.content div.inf div.postulate div.t{
+section.content div.inf div.postulate div.t {
     font-size: 40px;
     color: rgba(253, 251, 251, 0.5);
     display: grid;
@@ -302,19 +302,19 @@ section.content div.inf div.postulate div.t{
 }
 
 section.content div.inf div.scopul div.scop-t div.line,
-section.content div.inf div.postulate div.t div.line{
+section.content div.inf div.postulate div.t div.line {
 border-bottom: 3px solid rgba(241, 235, 235, 0.1);
 height: 80px;
 }
 
-section.content div.inf div.scopuri{
+section.content div.inf div.scopuri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     height: 250px;
 }
 
-section.content div.inf div.scopuri div{
+section.content div.inf div.scopuri div {
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
     background-color: thistle;
@@ -322,13 +322,13 @@ section.content div.inf div.scopuri div{
     padding: 40px 10px 40px 10px;
 }
 
-section.content div.inf div.postulate div.c{
+section.content div.inf div.postulate div.c {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
 }
 
-section.content div.inf div.postulate div.c div{
+section.content div.inf div.postulate div.c div {
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
     background-color: rgba(180, 158, 180, 0.5);
@@ -337,52 +337,53 @@ section.content div.inf div.postulate div.c div{
     margin-bottom: 20px;
 }
 
-section.content div.right img{
+section.content div.right img {
     width: 250px;
     margin-left: 20px;
 }
 
-section.content div.right{
+section.content div.right {
     padding: 5px;
 }
-section.clasificare{
+
+section.clasificare {
     display: grid;
     grid-template-columns: 300px auto;
     column-gap: 20px;
 }
 
-section.clasificare div.left{
+section.clasificare div.left {
     padding: 10px;
     margin-top: 15px;
     background-color: rgba(231, 184, 231, 0.1);
 }
 
-section.clasificare div.left p{
+section.clasificare div.left p {
     font-size: 20px;
 }
 
-section.clasificare div.left img{
+section.clasificare div.left img {
     width: 250px;
 }
 
-section.clasificare div.nevoi{
+section.clasificare div.nevoi {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
 }
 
-section.clasificare div.nevoi img{
+section.clasificare div.nevoi img {
     width: 300px;
     position: relative;
     z-index: -1;
 }
 
-section.clasificare div.nevoi p{
+section.clasificare div.nevoi p {
     display: none;
     padding: 10px 40px 10px 10px;
 }
 
-section.clasificare div.nevoi div.comunicare:hover > p{
+section.clasificare div.nevoi div.comunicare:hover > p {
     display: block;
     z-index: +1;
     margin-top: -300px;
@@ -390,7 +391,7 @@ section.clasificare div.nevoi div.comunicare:hover > p{
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.miscare:hover > p{
+section.clasificare div.nevoi div.miscare:hover > p {
     display: block;
     z-index: +1;
     margin-top: -160px;
@@ -398,7 +399,7 @@ section.clasificare div.nevoi div.miscare:hover > p{
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.curat:hover > p{
+section.clasificare div.nevoi div.curat:hover > p {
     display: block;
     z-index: +1;
     margin-top: -200px;
@@ -406,7 +407,7 @@ section.clasificare div.nevoi div.curat:hover > p{
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.imbraca:hover > p{
+section.clasificare div.nevoi div.imbraca:hover > p {
     display: block;
     z-index: +1;
     margin-top: -195px;
@@ -419,7 +420,7 @@ section.clasificare div.nevoi div.temperatura:hover > p,
 section.clasificare div.nevoi div.manca:hover > p,
 section.clasificare div.nevoi div.elimina:hover > p,
 section.clasificare div.nevoi div.recrea:hover > p,
-section.clasificare div.nevoi div.invata:hover > p{
+section.clasificare div.nevoi div.invata:hover > p {
     display: block;
     z-index: +1;
     margin-top: -170px;
@@ -427,7 +428,7 @@ section.clasificare div.nevoi div.invata:hover > p{
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div.pericole:hover > p{
+section.clasificare div.nevoi div.pericole:hover > p {
     display: block;
     z-index: +1;
     margin-top: -270px;
@@ -437,7 +438,7 @@ section.clasificare div.nevoi div.pericole:hover > p{
 
 section.clasificare div.nevoi div.dormi:hover > p,
 section.clasificare div.nevoi div.credinte:hover > p,
-section.clasificare div.nevoi div.util:hover > p{
+section.clasificare div.nevoi div.util:hover > p {
     display: block;
     z-index: +1;
     margin-top: -195px;
@@ -445,174 +446,203 @@ section.clasificare div.nevoi div.util:hover > p{
     font-weight: bold;
 }
 
-section.clasificare div.nevoi div:hover > img{
+section.clasificare div.nevoi div:hover > img {
     opacity: 0.4;
 }
 
-section.clasificare div.maslow{
+section.clasificare div.maslow {
     margin-top: 20px;
 }
 
-section.clasificare div.maslow img{
+section.clasificare div.maslow img {
     width: 800px;
     margin-left: 100px;
 }
 
-section.clasificare div.maslow img:hover{
+section.clasificare div.maslow img:hover {
     width: 100%;
     margin-left: 0;
 }
 
-button#button-icon{
+button#button-icon {
     display: none;
 }
 
-@media (max-width: 780px){
-    .logo{
+@media (max-width: 780px) {
+    .logo {
         width: 40px;
         font-size: 14px;
         margin-left: -10px;
         padding: 5px;
-      }
-    header{
+    }
+
+    header {
         margin-left: -8px;
     }
-    h1{
+
+    h1 {
         width: 300px;
         font-size: 25px;
         position: relative;
         bottom: 55px;
         left: 70px;
     }
-    button#button-icon{
+
+    button#button-icon {
         display: block;
         width: 40px;
     }
-    #mobile-menu{
+
+    #mobile-menu {
         display: none;
     }
-    header{
+
+    header {
         width: 330px;
     }
+
     .menu-f li a {
         font-size: 12px;
         padding: 5px;
     }
+
     .menu li a {
         font-size: 14px;
         padding: 4px;
     }
-    .header-top{
+
+    .header-top {
         background: white;
     }
-    .main-menu{
+
+    .main-menu {
         background: white;
     }
-    footer{
+
+    footer {
         background: lightslategray;
     }
-    div.line{
+
+    div.line {
         border-style: solid;
         border-width: 2px;
         margin-left: -5px;
     }
-    main section.container{
+
+    main section.container {
         margin: 10px;
         grid-template-columns: 1fr 1fr;
     }
-    main section.container div div.citat{
+
+    main section.container div div.citat {
         font-size: 22px;
         margin-top: 20px;
     }
-    main section.container div button{
+
+    main section.container div button {
         height: 30px;
         width: 100px;
         font-size: 14px;
         margin-bottom: 20px;
     }
+
     main section.container img,
     main section.container-1 img,
     main section.container-2 img,
-    main section.container-3 img{
+    main section.container-3 img {
         height: 100px;
         justify-self: start;
         margin: 15px;
     }
+
     main section.container-1,
     main section.container-2,
-    main section.container-3{
+    main section.container-3 {
         grid-template-columns: 1fr 1fr;
         margin: 10px;
     }
+
     main section.container-2,
-    main section.container-3{
+    main section.container-3 {
         grid-template-columns: 1fr;
     }
+
     main section.container-1 div h3,
     main section.container-2 div h3,
-    main section.container-3 div h3{
+    main section.container-3 div h3 {
         font-size: 20px;
         margin-bottom: 10px;
         margin-left: 10px;
     }
+
     main section.container-1 div p,
     main section.container-2 div,
-    main section.container-3 div{
+    main section.container-3 div {
         font-size: 14px;
         padding-left: 10px;
     }
+
     #button-left,
     #button-right,
     #button-left1,
     #button-right1,
-    #button-left2{
+    #button-left2 {
         height: 20px;
         width: 60px;
         margin: 30px;
         font-size: 14px;
     }
-    #button-right1{
+
+    #button-right1 {
         position: relative;
         left: 120px;
         bottom: 80px;
     }
-    section.content{
+
+    section.content {
         display: block;
     }
-    section.content div.inf div.top-inf img{
+
+    section.content div.inf div.top-inf img {
         width: 280px;
     }
+
     section.content div.inf div.scopul div.scop-t,
-    section.content div.inf div.postulate div.t{
+    section.content div.inf div.postulate div.t {
         font-size: 30px;
     }
-    section.content div.inf div.postulate div.t{
+
+    section.content div.inf div.postulate div.t {
         margin-top: 250px;
     }
+
     section.content div.inf div.scopuri,
-    section.content div.inf div.postulate div.c{
+    section.content div.inf div.postulate div.c {
         grid-template-columns: repeat(2, 1fr);
     }
-    section.clasificare{
+
+    section.clasificare {
         display: block;
     }
-    section.clasificare div.maslow img{
+
+    section.clasificare div.maslow img {
         width: 280px;
         margin-left: 15px;
     }
-    section.clasificare div.nevoi{
+
+    section.clasificare div.nevoi {
         display: block;
     }
 }
 
-@media (min-width: 450px){
-    h1{
+@media (min-width: 450px) {
+    h1 {
       font-size: 35px;
       bottom: 80px;
     }
   }
   
-  @media (min-width: 1000px){
+  @media (min-width: 1000px) {
     h1{
       font-size: 70px;
       bottom: 115px;
