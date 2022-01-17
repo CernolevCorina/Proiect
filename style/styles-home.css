@@ -1,0 +1,220 @@
+body{
+  background-image: url(../imagini/asistenta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  width: 900px;
+}
+
+.logo{
+  position: relative;
+  left: 20px;
+  width: 150px;
+  top: 15px;
+  color: navy ; 
+  font-family: Vivaldi; 
+  font-size: 30px; 
+  text-align: center;
+  border-style: dashed; 
+  border-color: rebeccapurple;
+  animation-name: Bord;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Bord{
+  0% {border-color:rebeccapurple;}
+  25% {border-color: salmon;}
+  50% {border-color: yellow;}
+  100% {border-color: black;}
+}
+
+h1{
+  color: rgb(0, 0, 0); 
+  background: -webkit-linear-gradient(black, red);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  bottom: 115px;
+  left: 230px;
+  width: 800px;
+  font-family: 'Edwardian Script ITC'; 
+  font-size: 70px;
+}
+
+button#button-icon{
+  display: none;
+}
+
+.header-top{
+  background-color: white;
+  height: 90px;
+}
+
+.active {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(222, 242, 245);
+}
+
+.dropdown-content li{
+  border-bottom: groove; 
+  border-color:powderblue;
+}
+
+.active:hover .dropdown-content {
+  display: block;
+}
+
+.menu li a {
+  display: block;
+  padding: 8px;
+  font-family: cursive; 
+  font-size: 20px;
+  color:darkblue;
+  text-decoration: none;
+}
+
+.menu{
+  position: relative;
+}
+
+.main-menu{
+  background-color: white;
+}
+
+
+div.content-1{
+  display: flex;
+  height: 700px;
+  text-align: left;
+  font-family: Bookman Old Style; 
+  font-size: 25px;
+  color:darkblue;
+  align-items: center;
+}
+
+footer{
+  background: linear-gradient(to right, rgb(150, 189, 202), rgb(255, 255, 255));
+}
+
+.menu-f{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-f li {
+  float: left;
+  position: relative;
+}
+
+.menu-f li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: cursive; 
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-f li a:hover {
+background-color: white;
+}
+
+@media (max-width: 450px){
+  .logo{
+    width: 40px;
+    font-size: 14px;
+    margin-left: -10px;
+    padding: 5px;
+  }
+  header{
+    margin-left: -8px;
+    width: 330px;
+  }
+  body{
+    background-color: gainsboro;
+    background-image: none;
+  }
+  h1{
+    width: 300px;
+    font-size: 25px;
+    position: relative;
+    bottom: 55px;
+    left: 70px;
+  }
+  button#button-icon{
+    display: block;
+    width: 40px;
+  }
+  #mobile-menu{
+    display: none;
+  }
+
+  div.content-1{
+    width: 200px;
+    font-size: 14px;
+    height: 300px;
+    text-align: center;
+  }
+  div#c{
+    display: grid;
+    justify-content: center;
+  }
+  .menu-f li a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .menu li a {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .header-top{
+    background-color: gainsboro;
+  }
+  .main-menu{
+    background-color: gainsboro;
+  }
+  footer{
+    background: gainsboro;
+  }
+  div.line{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 450px){
+  h1{
+    font-size: 35px;
+    bottom: 80px;
+  }
+}
+
+@media (min-width: 1000px){
+  h1{
+    font-size: 70px;
+    bottom: 115px;
+  }
+}
